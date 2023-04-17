@@ -1,0 +1,39 @@
+.class-padding{
+    padding: 30px 80px;
+}
+header{
+    position: fixed;
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-top: 0px !important;
+    background-color: antiquewhite;
+    padding-top: 10px !important;
+    height: 90px;
+    z-index: 100;
+}
+header ul{
+    display: flex;
+    justify-content: space-between;
+}
+header ul li{
+    margin: 20px;
+    list-style: none;
+}
+header ul li a{
+    text-decoration: none;
+    
+}
+
+main{
+    padding-top: 130px !important;
+    height: 700px;
+}
+footer{
+    position: absolute;
+    width: 100%;
+}
+footer p{
+    padding-top: 250px;
+    text-align: center;
+}
